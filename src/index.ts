@@ -1,4 +1,3 @@
-
 const h = Object.prototype.toString;
 
 export function getTypeString(o: any) {

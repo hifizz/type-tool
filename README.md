@@ -1,5 +1,9 @@
 # type-tool
 
+[![Build Status](https://travis-ci.com/hifizz/type-tool.svg?branch=master)](https://travis-ci.com/hifizz/type-tool)
+[![codecov](https://codecov.io/gh/hifizz/type-tool/branch/master/graph/badge.svg)](https://codecov.io/gh/hifizz/type-tool)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 一个安全的变量类型检查工具。
 
 ## Install
