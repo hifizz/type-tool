@@ -40,8 +40,14 @@ console.log(isVariableArray) // true
 
 借助 `Object.prototype.toString` 来返回真实的变量类型。
 
-```
-const 
+```js
+// 看下面的例子
+
+console.log(typeof []) // "object"
+console.log(Object.prototype.toString.call([])) // "[Object Array]"
+
+console.log(typeof null) // "object"
+console.log(Object.prototype.toString.call(null)) // "[Object Null]"
 ```
 
 ### API
