@@ -1,0 +1,6 @@
+.git*
+tools
+coverage
+.rpt2_cache
+.npmignore
+/.idea
