@@ -56,18 +56,29 @@ console.log(Object.prototype.toString.call(null)) // "[Object Null]"
 
 ### API
 
-TODO
+**getTypeString**
+`getTypeString(o: any): string` String like "[Object Null]" "[Object Array]".
 
-- getTypeString
-- isString
-- isNumber
-- isBoolean
-- isSymbol
-- isArray
-- isObject
-- isFunction
-- isError
-- isNull
-- isUndefined
-- isDate
-- isMath
+**isString** `isString(o: any): boolean`
+
+**isNumber** `isNumber(o: any): boolean`
+
+**isBoolean** `isBoolean(o: any): boolean`
+
+**isSymbol** `isSymbol(o: any): boolean`
+
+**isArray** `isArray(o: any): boolean`
+
+**isObject** `isObject(o: any): boolean`
+
+**isFunction** `isFunction(o: any): boolean`
+
+**isError** `isError(o: any): boolean`
+
+**isNull** `isNull(o: any): boolean`
+
+**isUndefined** `isUndefined(o: any): boolean`
+
+**isDate** `isDate(o: any): boolean`
+
+**isMath** `isMath(o: any): boolean`
