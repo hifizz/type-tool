@@ -57,7 +57,7 @@ console.log(Object.prototype.toString.call(null)) // "[Object Null]"
 ### API
 
 **getTypeString**
-`getTypeString(o: any): string` String like "[Object Null]" "[Object Array]".
+`getTypeString(o: any): string` Alias `Object.prototype.toString.call` Return string like "[Object Null]" "[Object Array]".
 
 **isString** `isString(o: any): boolean`
 
